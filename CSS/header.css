@@ -1,0 +1,14 @@
+.header {
+    background-color: #005F73;
+    box-shadow: 10px 10px 20px 0px #000607;
+}
+
+.header__paragraph {
+    color: whitesmoke;
+    padding: 20px;
+    margin-bottom: 0px;
+}
+
+.header__paragraph--darkTheme {
+    color: black;
+}

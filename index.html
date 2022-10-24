@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ŁukaszSzmytkaBEM</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="CSS/style.css" rel="stylesheet" />
+    <link href="CSS/header.css" rel="stylesheet" />
+    <link href="CSS/navigation.css" rel="stylesheet" />
+    <link href="CSS/article.css" rel="stylesheet" />
+    <link href="CSS/table.css" rel="stylesheet" />
+    <link href="CSS/aside.css" rel="stylesheet" />
+    <link href="CSS/footer.css" rel="stylesheet" />
+    <script defer src="JS/script.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="body">
+    <header id="header" class="header">
+      <h1 class="header__paragraph">Witam wszystkich !!!</h1>
+    </header>
+    <nav class="navigation">
+      <ul class="navigation__list">
+        <li class="navigation__item navigation__item--link">
+          <a class="navigation__link" href="#picture">Oto ja</a>
+        </li>
+        <li class="navigation__item navigation__item--link">
+          <a class="navigation__link" href="#o-mnie">O mnie</a>
+        </li>
+        <li class="navigation__item navigation__item--link">
+          <a class="link navigation__link" href="#tabela">Tabela</a>
+        </li>
+        <li class="navigation__item navigation__item--link">
+          <a class="link navigation__link" href="#Kontakt">Kontakt</a>
+        </li>
+        <li class="navigation__item navigation__item--button">
+          <button class="navigation__button navigation__buttonHeaderColor">
+            Mała zmiana
+          </button>
+        </li>
+        <li class="navigation__item navigation__item--button">
+          <button class="navigation__button navigation__buttonBodyBackground">
+            <span class="themeName">Ciemny</span> motyw
+          </button>
+        </li>
+      </ul>
+    </nav>
+    <main class="main">
+      <article class="article">
+        <h2 id="picture" class="article__mainHeader">Łukasz Szmytka</h2>
+
+        <div class="article__picture">
+          <img
+            class="article__picture article__picture--lucas"
+            src="https://i.postimg.cc/CxFmvcDh/lsz.jpg"
+            alt="ŁukaszSzmytka"
+          />
+        </div>
+        <h3 id="o-mnie" class="article__lowerHeader">Skąd pochodzę</h3>
+        <p class="article__paragraph">
+          Mieszkam w Koninie, nieduża miejscowość w centralnej Polsce, w
+          województwie wielkopolskim, położona nad rzeką Wartą.<br />Mieszkam w
+          domu jednorodzinnym, z moją cudowną rodzinką:
+          <b>
+            piękną żoną, dwiema cudownymi córami, dwoma niesfornymi psami i
+            królikiem. </b
+          >
+        </p>
+        <div class="article__picture">
+          <img
+            class="article__picture article__picture--konin"
+            src="https://i.postimg.cc/Wbht01Ng/konin.jpg"
+            alt="Konin, miejsce na mapie"
+          />
+        </div>
+        <h3 class="article__lowerHeader">Co porabiam</h3>
+        <p class="article__paragraph">
+          Obecnie prowadzę własną firmę, zajmuję się serwisem IT: sieci
+          komputerowe, kasy fiskalne, terminale płatnicze, systemy kierowania
+          ruchem itp.
+          <br />Wcześniej zajmowałem się również serwisem komputerów, telefonów
+          itp., jednak teraz zajmuję się głównie pracą w terenie, więc na
+          miejscowy serwis brakuje mi czasu. <br />Lubię pracę, którą wykonuję,
+          daje mi to dużo satysfakcji, w momencie kiedy po mojej ingerencji coś
+          zaczyna działać jak należy. <br />Jedynym minusem tej pracy jest to,
+          że zabiera dużo czasu, przez co brakuje go na inne czynności.
+          <br />Kiedy znajdę trochę wolnego czasu, zajmuję się domem. Dom
+          jednorodzinny wraz z podwórkiem wymaga trochę uwagi, co chwilę jest
+          coś do ogarnięcia. <br />Jednak nie narzekam, lubię to, taka praca jak
+          koszenie trawy, przycinanie krzewów, majsterkowanie w garażu itp.
+          bardzo mnie odpręża.
+        </p>
+        <h3 class="article__lowerHeader">W wolnych chwilach</h3>
+        <p class="article__paragraph">
+          Kiedy znajdę trochę wolnego czasu, lubię oddać się takim
+          przyjemnościom jak np: wędkowanie, gry komputerowe lub grillowanie ze
+          znajomymi.
+          <br />Całą rodzinką lubimy podróżować <i>(kto nie lubi)</i>. Jesteśmy
+          ciepłolubni, więc głównie odwiedzamy ciepłe kraje, preferujemy
+          <span class="holiday article__paragraph--strong"
+            >plażing, smażing, sporty wodne</span
+          >, mniej zwiedzanie zabytków czy chodzenie po górach. Na zdjęciu
+          chodzimy po górach 😁
+        </p>
+        <div class="article__picture">
+          <img
+            class="article__picture article__picture--familly"
+            src="https://i.postimg.cc/76rJP80d/rodzinka.jpg"
+            alt="Ja z rodzinką w tureckich górach"
+          />
+        </div>
+        <h3 class="article__lowerHeader">Programowanie</h3>
+        <p class="article__paragraph">
+          Na studiach informatycznych liznęliśmy po łebkach takie zagadnienia
+          jak<span class="article__paragraph--strong"
+            >HTML, CSS, JavaScript</span
+          >
+          . Wtedy spodobało mi się to bardzo, jednak pomimo tego, jakoś nic
+          konkretnego z tego nie wyszło. Myślę, że wtedy zabrakło trochę więcej
+          determinacji.<br />Ostatnio podczas przeglądania Youtube natrafiłem na
+          reklamę YouCode, zafascynowało mnie to bardzo, <br />pomyślałem sobie
+          <i
+            ><span class="thought article__paragraph--strong"
+              >YouCode to jest to czego mi potrzeba</span
+            ></i
+          >
+          no i jestem. Jeżeli interesuje Cię tematyka programowania, tworzenia
+          stron internetowych, to zapraszam do
+          <span class="article__paragraph--strong">
+            <a
+              class="article__link"
+              target="_blank"
+              rel="noreferrer noopener"
+              title="Szkoła programowania youcode"
+              href="https://youcode.pl/"
+              >szkoły youcode</a
+            > </span
+          >. Ja już się zapisałem i polecam.
+        </p>
+      </article>
+      <h3 id="tabela">Moja tabela</h3>
+      <div class="table__container">
+        <table class="table">
+          <caption class="table__caption">
+            Plan Lekcji Aga
+          </caption>
+          <tbody class="table__body">
+            <tr class="table__row">
+              <th class="table__cell table__cell--header" scope="col">Nr</th>
+              <th class="table__cell table__cell--header" scope="col">
+                Godzina
+              </th>
+              <th class="table__cell table__cell--header" scope="col">
+                Poniedziałek
+              </th>
+              <th class="table__cell table__cell--header" scope="col">
+                Wtorek
+              </th>
+              <th class="table__cell table__cell--header" scope="col">Środa</th>
+              <th class="table__cell table__cell--header" scope="col">
+                Czwartek
+              </th>
+              <th class="table__cell table__cell--header" scope="col">
+                Piątek
+              </th>
+            </tr>
+            <tr class="table__row">
+              <th class="table__cell table__cell--header" scope="row">1</th>
+              <th class="table__cell table__cell--lowerHeader" scope="row">
+                8:00 - 8:45
+              </th>
+              <td class="tableCell table__cell">Technika</td>
+              <td class="tableCell table__cell">Plastyka</td>
+              <td class="tableCell table__cell">Religia</td>
+              <td class="tableCell table__cell">Religia</td>
+              <td class="tableCell table__cell"></td>
+            </tr>
+            <tr class="table__row">
+              <th class="table__cell table__cell--header" scope="row">2</th>
+              <th class="table__cell table__cell--lowerHeader" scope="row">
+                8:55 - 9:40
+              </th>
+              <td class="tableCell table__cell">Język angielski</td>
+              <td class="tableCell table__cell">Matematyka</td>
+              <td class="tableCell table__cell">Język polski</td>
+              <td class="tableCell table__cell">Wychowanie fizyczne</td>
+              <td class="tableCell table__cell">Język polski</td>
+            </tr>
+            <tr class="table__row">
+              <th class="table__cell table__cell--header" scope="row">3</th>
+              <th class="table__cell table__cell--lowerHeader" scope="row">
+                9:50 - 10:35
+              </th>
+              <td class="tableCell table__cell">Wychowanie fizyczne</td>
+              <td class="tableCell table__cell">Historia</td>
+              <td class="tableCell table__cell">Język angielski</td>
+              <td class="tableCell table__cell">Język polski</td>
+              <td class="tableCell table__cell">Język polski</td>
+            </tr>
+            <tr class="table__row">
+              <th class="table__cell table__cell--header" scope="row">4</th>
+              <th class="table__cell table__cell--lowerHeader" scope="row">
+                10:45 - 11:30
+              </th>
+              <td class="tableCell table__cell">Matematyka</td>
+              <td class="tableCell table__cell">Język polski</td>
+              <td class="tableCell table__cell">Wychowanie fizyczne</td>
+              <td class="tableCell table__cell">Matematyka</td>
+              <td class="tableCell table__cell">Historia</td>
+            </tr>
+            <tr class="table__row">
+              <th class="table__cell table__cell--header" scope="row">5</th>
+              <th class="table__cell table__cell--lowerHeader" scope="row">
+                11:50 - 12:35
+              </th>
+              <td class="tableCell table__cell">Zajęcia kreatywne</td>
+              <td class="tableCell table__cell">Zajęcia wychowawcze</td>
+              <td class="tableCell table__cell">Geografia</td>
+              <td class="tableCell table__cell">
+                Wprowadzenie do życia w rodzinie
+              </td>
+              <td class="tableCell table__cell">Matematyka</td>
+            </tr>
+            <tr class="table__row">
+              <th class="table__cell table__cell--header" scope="row">6</th>
+              <th class="table__cell table__cell--lowerHeader" scope="row">
+                12:55 - 13:40
+              </th>
+              <td class="tableCell table__cell"></td>
+              <td class="tableCell table__cell">Język angielski</td>
+              <td class="tableCell table__cell">Muzyka</td>
+              <td class="tableCell table__cell">Biologia</td>
+              <td class="tableCell table__cell">Wychowanie fizyczne</td>
+            </tr>
+            <tr class="table__row">
+              <th class="table__cell table__cell--header" scope="row">7</th>
+              <th class="table__cell table__cell--lowerHeader" scope="row">
+                13:50 - 14:35
+              </th>
+              <td colspan="4" class="table__cell">WOLNE !!!</td>
+              <td class="table__cell">Informatyka</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+    <aside id="Kontakt" class="aside">
+      <div class="aside__block aside__block--contact">
+        <p class="aside__paragrph">Napisz do mnie lub zadzwoń:</p>
+        <ul class="aside__list">
+          <li class="aside__item">
+            <a class="aside__link" href="mailto:szmytka983@gmail.com"
+              >szmytka983@gmail.com</a
+            >
+          </li>
+          <li class="aside__item">
+            <a class="aside__link" href="tel:123456789">tel. 123 456 789</a>
+          </li>
+        </ul>
+      </div>
+      <div class="aside__block aside__block--usefulLinks">
+        <p class="aside__paragrph">Przydatne linki:</p>
+        <ul class="aside__list">
+          <li class="aside__item">
+            <a
+              class="aside__link"
+              target="_blank"
+              rel="noreferrer noopener"
+              title="MDN - obszerna wiedza na temat tworzenia stron"
+              href="https://developer.mozilla.org/en-US/"
+              >https://developer.mozilla.org/en-US/</a
+            >
+          </li>
+          <li class="aside__item">
+            <a
+              class="aside__link"
+              target="_blank"
+              rel="noreferrer noopener"
+              title="Youcode - szkoła programowania"
+              href="https://youcode.pl/"
+              >https://youcode.pl/</a
+            >
+          </li>
+        </ul>
+      </div>
+    </aside>
+    <footer class="footer">
+      <p class="footer__paragraph">
+        Copyright by Łukasz Szmytka 2022 All rights reserved
+      </p>
+      <a class="footer__link" href="#header">Wróć do góry</a>
+    </footer>
+  </body>
+</html>

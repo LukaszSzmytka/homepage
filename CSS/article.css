@@ -1,0 +1,53 @@
+.article {
+    margin: 20px;
+}
+
+.article__mainHeader {
+    font-style: italic;
+    font-size: xx-large;
+}
+
+.article__lowerHeader {
+    font-style: italic;
+}
+
+.article__paragraph {
+    text-align: left;
+    padding: 20px;
+}
+
+.article__paragraph--strong {
+    font-weight: 700;
+}
+
+.article__link {
+    text-decoration: none;
+    color: black;
+}
+
+.article__picture {
+    margin: 20px;
+}
+
+.article__picture--lucas.article__picture {
+    max-width: 300px;
+    border-radius: 25%;
+    position: relative;
+    box-shadow: 10px 10px 20px 0px #000607;
+}
+
+.article__picture--konin.article__picture {
+    max-width: 300px;
+    position: relative;
+    box-shadow: 10px 10px 20px 0px #000607;
+    border-radius: 25%;
+    margin: 20px;
+}
+
+.article__picture--familly.article__picture {
+    max-width: 450px;
+    border-radius: 25%;
+    background-color: #FFFFFF;
+    position: relative;
+    box-shadow: 10px 10px 20px 0px #000607;
+}

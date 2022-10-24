@@ -1,0 +1,16 @@
+.footer {
+    background-color: #005F73;
+    padding: 10px;
+    margin: 20px auto;
+    box-shadow: 10px 10px 20px 0px #000607;
+
+}
+
+.footer__paragraph {
+    color: whitesmoke;
+}
+
+.footer__link {
+    color: white;
+    text-decoration: none;
+}
