@@ -30,7 +30,7 @@
 }
 
 .article__picture--lucas.article__picture {
-    max-width: 300px;
+    max-height: 300px;
     border-radius: 25%;
     position: relative;
     box-shadow: 10px 10px 20px 0px #000607;
