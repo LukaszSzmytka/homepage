@@ -32,7 +32,4 @@
   welcome();
   background();
   header();
-
-
-
 }
