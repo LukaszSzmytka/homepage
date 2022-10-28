@@ -1,3 +1,17 @@
+
+.table {
+    font-style: italic;
+    text-decoration-line: underline;
+    text-decoration-color: inherit;
+}
+
+.table__element {
+    border-collapse: collapse;
+    width: 100%;
+    position: relative;
+    box-shadow: 10px 10px 15px 0px #000607;
+}
+
 .table__container {
     overflow-x: auto;
     padding: 25px;
@@ -7,13 +21,6 @@
     padding: 20px;
     caption-side: bottom;
     text-align: right;
-}
-
-.table {
-    border-collapse: collapse;
-    width: 100%;
-    position: relative;
-    box-shadow: 10px 10px 15px 0px #000607;
 }
 
 .table__cell {

@@ -5,19 +5,25 @@
 .article__mainHeader {
     font-style: italic;
     font-size: xx-large;
+    text-decoration-line: underline;
+    text-decoration-color: inherit;
 }
 
 .article__lowerHeader {
     font-style: italic;
+    text-decoration-line: underline;
+    text-decoration-color: inherit;
 }
 
 .article__paragraph {
     text-align: left;
     padding: 20px;
+    text-indent: 40px;
 }
 
 .article__paragraph--strong {
     font-weight: 700;
+    padding: 0%;
 }
 
 .article__link {
