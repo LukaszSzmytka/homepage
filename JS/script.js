@@ -7,7 +7,6 @@
   const onChangeBackgroundClick = () => {
     const main = document.querySelector(".main");
     const themeName = document.querySelector(".navigation__themeName");
-
     main.classList.toggle("darkTheme");
     themeName.innerText = main.classList.contains("darkTheme")
       ? "Jasny"
@@ -15,21 +14,25 @@
   };
 
   const onChangeHeaderClick = () => {
-    const navigation__buttonHeaderColor = document.querySelector(".js-buttonHeaderColor");
     const header__paragraph = document.querySelector(".header__paragraph");
+    header__paragraph.classList.toggle("header__paragraph--darkTheme");
 
   };
-
-  welcome();
 
   const background = () => {
     const navigation__buttonBodyBackground = document.querySelector(".js-buttonBodyBackground");
-    navigation__buttonBodyBackground.addEventListener("click",onChangeBackgroundClick);
+    navigation__buttonBodyBackground.addEventListener("click", onChangeBackgroundClick);
   };
 
   const header = () => {
-    
-    navigation__buttonHeaderColor.addEventListener("click",onChangeHeaderClick);
-    header__paragraph.classList.toggle("header__paragraph--darkTheme");
+    const navigation__buttonHeaderColor = document.querySelector(".js-buttonHeaderColor");
+    navigation__buttonHeaderColor.addEventListener("click", onChangeHeaderClick);
   };
+
+  welcome();
+  background();
+  header();
+
+
+
 }
